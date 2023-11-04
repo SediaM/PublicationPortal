@@ -44,6 +44,7 @@ const startApolloServer = async () => {
   //     console.log(`API server running on port ${PORT}!`);
   //     console.log(`Use GraphQL at http://localhost:${PORT}/graphql`);
   //   });
+  // })
 };
 
 // Call the async function to start the server

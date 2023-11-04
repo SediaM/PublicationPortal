@@ -36,7 +36,7 @@ const client = new ApolloClient({
 
 function App() {
   return (
-    <ApolloProvider>
+    <ApolloProvider client={client}>
       <Navbar />
       <Outlet />
     </ApolloProvider>
